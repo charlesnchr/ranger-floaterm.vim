@@ -26,7 +26,7 @@
 if exists('g:lf_command_override')
   let s:lf_command = g:lf_command_override
 else
-  let s:lf_command = 'lf'
+  let s:lf_command = 'ranger'
 endif
 
 function! OpenLfIn(path, edit_cmd)
